@@ -26,8 +26,8 @@ var https = require('https');
 
 // Constants
 const PORT = process.env.PORT || 8080;
-const HOST = '0.0.0.0';
-
+//const HOST = '0.0.0.0';
+const HOST = 'localhost';
 // App
 const app = express();
 app.use('/', express.static(path.join(__dirname, 'public')))
